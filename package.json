@@ -1,0 +1,26 @@
+{
+  "name": "node-beanstalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "build-css:dev": "postcss public/tailwind.css -o public/styles.css",
+    "build-css": "postcss public/tailwind.css -o public/styles.css --env production"
+  },
+  "keywords": [],
+  "author": "Michael Susanto",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "cssnano": "^5.0.8",
+    "nodemon": "^2.0.12",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
